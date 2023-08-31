@@ -1,0 +1,24 @@
+.image img{
+    border-radius: 10px;
+    filter: brightness(50%);
+    max-width:100%;
+    max-height:100%;
+transition: filter 0.5s ease;
+}
+
+.image img:hover{
+    
+    filter: brightness(1);
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.image h2{
+    position: absolute;
+    font-family: cursive;
+    color: white;
+    filter: blur(10%);
+}
